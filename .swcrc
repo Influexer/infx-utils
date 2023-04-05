@@ -6,8 +6,7 @@
     }
   },
   "module": {
-    "type": "es6",
-    "noInterop": false
+    "type": "commonjs"
   },
   "exclude": ["__tests__"],
   "sourceMaps": true,

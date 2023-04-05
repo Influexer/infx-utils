@@ -1,9 +1,8 @@
 {
   "name": "@influexer/utils",
+  "version": "0.0.0-development",
   "description": "Where we store all kinds of cool JS utilities",
-  "version": "0.0.0",
-  "type": "module",
-  "exports": "./build/index.js",
+  "main": "./build/index.js",
   "types": "./build/index.d.ts",
   "license": "MIT",
   "engines": {

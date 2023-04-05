@@ -1,1 +1,2 @@
-export { tryCatch } from "./tryCatch.js";
+export { tryCatch } from "./tryCatch";
+export { patternMatching } from "./patternMatching";
