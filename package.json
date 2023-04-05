@@ -1,5 +1,5 @@
 {
-  "name": "@infx/utils",
+  "name": "@influexer/utils",
   "description": "Where we store all kinds of cool JS utilities",
   "version": "0.0.0",
   "type": "module",
