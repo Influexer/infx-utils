@@ -1,6 +1,7 @@
 {
-  "name": "infx-utils",
-  "version": "0.0.0-development",
+  "name": "@infx/utils",
+  "description": "Where we store all kinds of cool JS utilities",
+  "version": "0.0.0",
   "type": "module",
   "exports": "./build/index.js",
   "types": "./build/index.d.ts",

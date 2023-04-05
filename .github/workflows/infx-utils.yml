@@ -1,4 +1,4 @@
-name: @infx/utils
+name: infx-utils
 
 on: [push]
 

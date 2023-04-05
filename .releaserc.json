@@ -14,7 +14,7 @@
       "prerelease": true
     }
   ],
-  "repositoryUrl": "https://github.com/giulianok/infx-utils.git",
+  "repositoryUrl": "https://github.com/influexer/infx-utils.git",
   "plugins": [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
