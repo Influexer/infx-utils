@@ -1,17 +1,6 @@
 {
-  "name": "@gjuchault/typescript-library-starter",
+  "name": "infx-utils",
   "version": "0.0.0-development",
-  "description": "Yet another typescript library starter template",
-  "keywords": [
-    "typescript",
-    "library",
-    "starter",
-    "template"
-  ],
-  "homepage": "https://github.com/gjuchault/typescript-library-starter",
-  "bugs": "https://github.com/gjuchault/typescript-library-starter/issues",
-  "author": "Gabriel Juchault <gabriel.juchault@gmail.com>",
-  "repository": "gjuchault/typescript-library-starter",
   "type": "module",
   "exports": "./build/index.js",
   "types": "./build/index.d.ts",
@@ -28,7 +17,6 @@
     "access": "public"
   },
   "scripts": {
-    "setup": "tsx ./scripts/setup.ts",
     "build": "npm run clean && npm run type:dts && npm run build:main",
     "build:main": "swc ./src -d ./build",
     "clean": "rimraf build coverage nyc_output",
@@ -41,7 +29,6 @@
     "test": "vitest run",
     "test:watch": "vitest watch",
     "test:coverage": "vitest run --coverage",
-    "test:setup": "tsx ./scripts/test-setup.ts",
     "spell:check": "cspell \"{README.md,CODE_OF_CONDUCT.md,CONTRIBUTING.md,.github/*.md,src/**/*.ts}\"",
     "cz": "cz",
     "semantic-release": "semantic-release"
@@ -69,12 +56,9 @@
     "eslint-plugin-import": "^2.27.5",
     "nyc": "^15.1.0",
     "prettier": "^2.8.7",
-    "prompts": "^2.4.2",
     "rimraf": "^4.4.1",
     "semantic-release": "^21.0.1",
-    "slugify": "^1.6.6",
     "source-map-support": "^0.5.21",
-    "tsx": "^3.12.6",
     "typescript": "^5.0.3",
     "vitest": "^0.29.8"
   }
