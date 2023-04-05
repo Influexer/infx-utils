@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+npm audit --audit-level=moderate && npm run format:check && npm run lint:check && npm run spell:check && npm test

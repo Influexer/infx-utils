@@ -7,7 +7,9 @@
     "infx-utils",
     "octocat",
     "rmrf",
-    "socio"
+    "socio",
+    "Influexer",
+    "tryer"
   ],
   "flagWords": [],
   "ignorePaths": [
